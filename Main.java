@@ -1,49 +1,24 @@
-package Tarea2_Introduccion;
+package Paquete;
 
 public class Main {
-    public static void main(String[] args) {
-        int numeroif = 3;
-        if(numeroif >= 1){
-            System.out.println("numeroif es positivo");
-        }
-        else if(numeroif == 0){
-            System.out.println("numeroif es cero");
-        }
-        else if (numeroif <= -1) {
-            System.out.println("numeroif es negativo");
-        } else {
-            System.out.println("error");
-        }
-        int numeroWhile = 0;
-        while (numeroWhile < 3){
-            numeroWhile++;
-            System.out.println(numeroWhile);
-        }
-        do{
-            numeroWhile++;
-            System.out.println(numeroWhile);
-        }while (numeroWhile < 3);
-        for (int numeroFor = 0; numeroFor <= 3 ; numeroFor++) {
-            System.out.println(numeroFor);
-        }
-        String estacion = "verano";
-        switch (estacion){
-            case "verano":
-                System.out.println("estamos en " + estacion);
-                break;
-            case "primavera":
-                System.out.println("estamos en " + estacion);
-                break;
-            case "otoño":
-                System.out.println("estamos en " + estacion);
-                break;
-            case "invierno":
-                System.out.println("estamos en " + estacion);
-                break;
-            default:
-                break;
 
-        }
+    public static void main(String[] args) {
+
+        int numero;
+        long numeroLargo;
+        double fraccion;
+        boolean siono;
+        String cadena;
+        char caracter;
+
+        System.out.println(numero = 1);
+        System.out.println(numeroLargo = 12345678915435L);
+        System.out.println(fraccion = 12.312);
+        System.out.println(siono = true);
+        System.out.println(cadena = "Hola Mundo");
+        System.out.println(caracter = 'H');
+
     }
+
 
 }
